@@ -1,0 +1,13 @@
+42.txt
+
+Instead of running a for loop over an integer, we can simply use while:
+
+for(i=0;i<n;i++)
+{
+
+}
+
+//easy to use
+while(n--){
+
+}
