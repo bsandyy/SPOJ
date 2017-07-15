@@ -62,3 +62,13 @@ So the final complexity is:
 T(n)=O(n∗log(log(n)))
 
 Simple Seive is efficient in regards to time, But when it comes to Space this becomes tricky as space required to store the initial bool array is too big. Hence, we have segmented Seive which requires only sqrt(n) space, but similar time complexity as sieve.
+
+
+Data Type sizes and ranges :
+
+https://www.topcoder.com/community/data-science/data-science-tutorials/representation-of-integers-and-reals-section-1/
+
+The storage size of an int and an unsigned int is platform dependent.
+ E.g., on machines using 64-bit registers, ints in g++ will have 64 bits.
+ The old Borland C compiler used 16-bit ints.
+ It is guaranteed that an int will always have at least 16 bits. Similarly, it is guaranteed that on any system a long will have at least 32 bits.
