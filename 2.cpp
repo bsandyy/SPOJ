@@ -67,7 +67,7 @@ void segmented_sieve(long long int m,long long int n){
         }
         if(m == 1)
         {
-                sieve[0] = 0; // 1 is always composte
+                sieve[0] = 0; // 1 is always composite
         }
 
         for(i=0; i<n-m+1; i++) {
